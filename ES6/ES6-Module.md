@@ -173,3 +173,4 @@ import exp为circleplus模块的默认方法
 
 ### import()动态加载(提案)
 
+### refs: http://es6.ruanyifeng.com/#docs/module

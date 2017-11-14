@@ -1,3 +1,3 @@
-# Mortred's learning repo #
+# Mortred's learning notes #
 
 My Notes.

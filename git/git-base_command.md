@@ -52,4 +52,16 @@
 
 `git push`
 
+### 创建分支
 
+`git checkout -b dev`
+
+相当于下面两条语句
+
+`git branch dev`
+`git checkout dev`
+
+### 合并分支
+
+`git checkout master`
+`git merge dev`

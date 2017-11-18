@@ -9,10 +9,10 @@ url: "" # the base hostname & protocol for your site
 defaults:
 - scope:
     path: ''
-    type: posts
+    type: 'docs'
   values:
     permalink: "/blog/:title/"
-    layout: post
+    layout: 'docs'
     author:
 
 # Jekyll

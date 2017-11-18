@@ -1,5 +1,5 @@
 # Site
-title:              Mortred's Home
+title:              Mortred's Home2
 bio:                'Jekyll version of the Massively theme by HTML5UP'
 description:        "Jekyll version of the Massively theme by HTML5UP"
 locale:             en_US
@@ -22,7 +22,7 @@ defaults:
 - scope:
     path: ''
   values:
-    layout: "docs"
+    layout: "default"
 
 # Jekyll
 permalink:          /blog/:title/

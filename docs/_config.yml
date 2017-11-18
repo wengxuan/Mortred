@@ -9,8 +9,16 @@ url: "" # the base hostname & protocol for your site
 defaults:
 - scope:
     path: ''
+    type: posts
   values:
-    layout: "default"
+    permalink: "/blog/:title/"
+    layout: post
+    author:
+- scope:
+    path: ''
+    type: "docs"
+  values:
+    layout: "docs"
 
 # Jekyll
 permalink:          /blog/:title/

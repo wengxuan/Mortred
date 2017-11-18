@@ -11,7 +11,7 @@ defaults:
     path: ''
   values:
     permalink: "/blog/:title/"
-    layout: 'default'
+    layout: 'docs'
 
 # Jekyll
 permalink:          /blog/:title/

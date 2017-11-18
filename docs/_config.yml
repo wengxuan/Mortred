@@ -19,6 +19,10 @@ defaults:
     type: "docs"
   values:
     layout: "docs"
+- scope:
+    path: ''
+  values:
+    layout: "docs"
 
 # Jekyll
 permalink:          /blog/:title/

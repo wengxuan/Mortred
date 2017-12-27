@@ -265,4 +265,82 @@ error：var math = Math()
 'no-sparse-arrays': 'error',
 ```
 
+* **禁止在普通字符串出现模板字符串引入变量标识${}**
 
+规则设置：[no-template-curly-in-string](https://eslint.org/docs/rules/no-template-curly-in-string)
+
+```js
+'no-template-curly-in-string': 'error',
+```
+
+* **禁止出现奇怪、令人疑惑的多行表达式**
+
+比如以`.`/`,`结尾等，具体见规则设置
+
+规则设置：[no-unexpected-multiline](https://eslint.org/docs/rules/no-unexpected-multiline)
+
+```js
+'no-unexpected-multiline': 'error',
+```
+
+* **禁止出现用不可能执行的语句**
+
+比如return后的语句
+
+规则设置：[no-unreachable](https://eslint.org/docs/rules/no-unreachable)
+
+```js
+'no-unreachable': 'error',
+```
+
+* **禁止finally中出现控制流语句**
+
+finally中不直接进行返回/抛出异常
+
+规则设置：[no-unsafe-finally](https://eslint.org/docs/rules/no-unsafe-finally)
+
+```js
+'no-unsafe-finally': 'error',
+```
+
+* **禁止直接对一些关系运算左运算符作非的操作**
+
+@fixed 加上括号避免出现未知的运算顺序
+
+规则设置：[no-unsafe-negation](https://eslint.org/docs/rules/no-unsafe-negation)
+
+```js
+'no-unsafe-negation': 'error',
+```
+
+* **使用isNaN()而非关系运算符判断是否为NaN**
+
+规则设置：[use-isnan](https://eslint.org/docs/rules/use-isnan)
+
+```js
+'use-isnan': 'error',
+```
+
+* **必要的js注释**
+
+规则设置：[valid-jsdoc](https://eslint.org/docs/rules/valid-jsdoc)
+
+```js
+'valid-jsdoc': [
+  'warn',
+  {
+    requireReturn: false,
+    requireReturnDescription: false
+  }
+],
+```
+
+* **typeof表达式后比较的是一个可用的字符串**
+
+typeof返回的所有类型："undefined", "object", "boolean", "number", "string", "function" and "symbol"
+
+规则设置：[valid-typeof](https://eslint.org/docs/rules/valid-typeof)
+
+```js
+'valid-typeof': 'error',
+```

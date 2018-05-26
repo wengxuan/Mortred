@@ -3,7 +3,7 @@
 * 简要渲染流程
 
 ### [渲染引擎](https://blog.csdn.net/heyeqingquan/article/details/78839699)
-* 渲染引擎发展史
+* 发展史
   * [渲染引擎wiki](https://zh.wikipedia.org/wiki/%E6%8E%92%E7%89%88%E5%BC%95%E6%93%8E)
   * [WebKit](https://zh.wikipedia.org/wiki/WebKit)
 

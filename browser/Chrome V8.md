@@ -14,6 +14,6 @@
 
 ### V8 Engine
 * 内联缓存Inline caching
-* 垃圾回收
+* [垃圾回收](https://www.cnblogs.com/liangdaye/p/4654734.html)
 * [Elements Kinds](https://v8project.blogspot.com/2017/09/elements-kinds-in-v8.html)
 
